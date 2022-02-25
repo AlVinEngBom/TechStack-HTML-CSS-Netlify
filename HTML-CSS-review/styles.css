@@ -1,0 +1,81 @@
+h1 {
+    color: orange;
+    background-color: slategray;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: arial;
+    text-align: center;
+}
+/* p {
+    color: slategray;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 1px;
+    column-count: 2;
+    column-gap: 60px;
+} */
+ul {
+    /* border-width: 4px;
+    border-style: solid;
+    border-color: crimson; */
+    /* border: 4px solid crimson; */
+    border-bottom: 4px dotted crimson;
+    border-left: 4px dashed crimson;
+}
+li{
+    list-style-type: none;
+    /* text-shadow: 2px 2px lightgray; */
+    text-shadow: 2px 2px rgb(131, 112, 116);
+}
+span{
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+}
+/* div{
+    border: 2px solid crimson;
+    margin: 20px;
+    padding: 20px;
+} */
+/* .error{
+    color: red;
+} */
+/* p.error{
+    color: red;
+}
+p.success{
+    color: green;
+}
+p.success.feedback{
+    border: 1px dashed green;
+}
+div#content{
+    background-color: yellow;
+    padding: 20px;
+} */
+/* div p a{
+    color: purple;
+}
+div .error{
+    color: orange;
+} */
+/* a[href]{
+    background-color: cadetblue;
+} */
+/* a[href*="about"]{
+
+}
+a[href$=".com"]{
+
+} */
+div{
+    color: lightblue;
+    border: 1px solid grey;
+    margin: 40px;
+    font-weight: bold;
+}
+p{
+    border: inherit;
+    margin: inherit;
+    color: crimson;
+}
